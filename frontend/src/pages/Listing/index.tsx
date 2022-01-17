@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 import { BASE_URL } from "utils/requests";
-import { addSyntheticLeadingComment } from "typescript";
 import { MoviePage } from "types/movie";
 
 function Listing() {
